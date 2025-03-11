@@ -1,5 +1,4 @@
 <?php
-// Part 1
 $fruit = "coconut";
 
 $charCount = strlen($fruit);

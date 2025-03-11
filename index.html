@@ -1,11 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PHP String Functions</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>hello</h1>
+
+    <h1>String Functions</h1>
+
+    <?php include 'exercises.php'; ?>
+
+    <h2>Part 1</h2>
+    <p>The word is: <strong><?php echo $fruit; ?></strong></p>
+    <p>Number of characters: <?php echo $charCount; ?></p>
+    <p>Position of first 'o': <?php echo $firstO; ?></p>
+
+    <h2>Part 2</h2>
+    <p>The word is: <strong><?php echo $fruit2; ?></strong></p>
+    <p>Position of last 'a': <?php echo $lastA; ?></p>
+    <p>Uppercase version: <?php echo $fruitUpper; ?></p>
+
+    <h2>Part 3</h2>
+    <p>Original word: <strong><?php echo $longestWord; ?></strong></p>
+    <p>Modified word: <?php echo $modifiedWord; ?></p>
+
 </body>
 </html>
