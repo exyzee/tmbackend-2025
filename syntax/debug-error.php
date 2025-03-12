@@ -1,5 +1,4 @@
 <?php
-// variable names using uncommon prefixes
 $text = 'Test 123...';
 $_digit_text = 'Test 456';  // invalid variable name
 $_text3 = 'test';

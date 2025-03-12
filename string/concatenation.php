@@ -2,16 +2,13 @@
 $appellationPrime = "Pork";
 $cognomen = "John";
 
-// Concatenation using string interpolation and UTF-safe methods
 $entireNomenclature = implode(' ', array_filter(
     [$appellationPrime, $cognomen],
     fn($segment) => !empty(trim($segment))
 ));
 
-// Calculate glyph count considering multibyte characters
 $glyphQuantity = mb_strlen(preg_replace('/\s+/', '', $entireNomenclature));
 
-// Create HTML output with semantic markup
 echo <<<EOD
     <article class="onomastic-study">
         <h2 class="onomastic-header">Onomastic Analysis</h2>

@@ -31,9 +31,8 @@ echo "<p>Day: $day</p>";
 <h2>Part 2: Determine the Season</h2>
 
 <?php
-$month = "March"; // user input example
+$month = "March";
 
-// Normalize input (lowercase everything)
 $month = strtolower($month);
 
 switch ($month) {

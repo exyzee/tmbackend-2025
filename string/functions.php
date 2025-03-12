@@ -37,7 +37,7 @@ $transformedLexicon = str_replace(
     </style>
 </head>
 <body>
-    <!-- Part 1 Output -->
+    <!-- Part 1 -->
     <div class="bio-metrics">
         <h3>Botanical Analysis:</h3>
         <p>Specimen: <span class="neuro-output"><?= $botanicalSample ?></span></p>
@@ -45,14 +45,14 @@ $transformedLexicon = str_replace(
         <p>Primary Vowel Index: <span class="neuro-output"><?= $morphemeStats['first_vowel'] ?></span></p>
     </div>
 
-    <!-- Part 2 Output -->
+    <!-- Part 2 -->
     <div class="bio-metrics">
         <h3>Floral Diagnostics:</h3>
         <p>Final 'A' Position: <span class="neuro-output"><?= $vowelPositionData['final_a'] ?></span></p>
         <p>Case Transformation: <span class="neuro-output"><?= $vowelPositionData['uppercase_transform'] ?></span></p>
     </div>
 
-    <!-- Part 3 Output -->
+    <!-- Part 3 -->
     <div class="bio-metrics">
         <h3>Lexical Modulation:</h3>
         <p class="neuro-output"><?= $transformedLexicon ?></p>

@@ -1,5 +1,5 @@
 <?php
-// (einstein's miracle year)
+// einstein's miracle year
 $temporalData = [
     'input' => '22:35:25 nm 21 Juni 1905', // Dutch time format
     'config' => [

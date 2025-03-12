@@ -24,7 +24,6 @@ $days = [
     7 => "sunday"
 ];
 
-// Check if number is valid and display the day
 if (isset($days[$number])) {
     echo "<p>Day: " . $days[$number] . "</p>";
 } else {

@@ -14,7 +14,6 @@
 <?php
 $year = 2024;
 
-// Checking if it's a leap year
 if (($year % 4 == 0 && $year % 100 != 0) || ($year % 400 == 0)) {
     echo "<p>$year is a leap year.</p>";
 } else {
@@ -27,7 +26,6 @@ if (($year % 4 == 0 && $year % 100 != 0) || ($year % 400 == 0)) {
 <?php
 $seconds = 221108521;
 
-// Basic conversions
 $minutes = floor($seconds / 60);
 $hours = floor($minutes / 60);
 $days = floor($hours / 24);
@@ -35,7 +33,6 @@ $weeks = floor($days / 7);
 $months = floor($days / 31);
 $years = floor($days / 365);
 
-// Display results
 echo "<p>In $seconds seconds:</p>";
 echo "<ul>";
 echo "<li>Minutes: $minutes</li>";

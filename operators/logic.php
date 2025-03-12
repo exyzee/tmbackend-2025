@@ -19,7 +19,7 @@
         <h2>Part 1</h2>
         
         <?php
-        $textToCheck = "Example";  // Assign any string to the variable
+        $textToCheck = "Example";  
 
         // Part 1 Check 1
         $check1 = (strlen($textToCheck) > 5 && ctype_upper($textToCheck[0])) ? 'true' : 'false';
@@ -44,8 +44,8 @@
         <h2>Part 2</h2>
 
         <?php
-        $yearOfBirth = 1994;  // Replace with your actual year of birth
-        $monthOfBirth = "02"; // Replace with your actual month of birth
+        $yearOfBirth = 2004;  
+        $monthOfBirth = "04"; 
 
         // Evaluate the condition
         $condition = ($yearOfBirth % 2 != 0 || $yearOfBirth > 1994) || ($monthOfBirth <= 06);
