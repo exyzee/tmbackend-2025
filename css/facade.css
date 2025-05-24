@@ -1,0 +1,19 @@
+/* Facade styles */
+.facade-minimal {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.facade-minimal h1 {
+    margin-top: 0;
+    color: #333;
+}
+
+.facade-minimal p {
+    color: #666;
+    margin: 10px 0;
+} 

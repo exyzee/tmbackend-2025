@@ -1,0 +1,21 @@
+/* Directory styles */
+.directory-sa-folder {
+    color: #0066cc;
+    font-family: monospace;
+    background-color: #f0f0f0;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+.directory-listing {
+    list-style: none;
+    padding: 0;
+}
+
+.directory-listing li {
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+} 
